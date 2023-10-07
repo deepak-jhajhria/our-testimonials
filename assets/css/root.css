@@ -1,0 +1,46 @@
+:root {
+  /* font size  */
+  --fs-base: 17px;
+  --fs-lg: 18px;
+  --fs-2xl: 24px;
+  --fs-4xl: 44px;
+
+  /* colors  */
+  --black1: #1e1e1e;
+  --yellow: #fddc50;
+  --grey-yellow: #feefb8;
+
+  /* font family  */
+  --ff-nunito: "Nunito", sans-serif;
+  --ff-lora: "Lora", serif;
+}
+.fs-base {
+  font-size: var(--fs-base) !important;
+}
+.fs-lg {
+  font-size: var(--fs-lg) !important;
+}
+.fs-2xl {
+  font-size: var(--fs-2xl) !important;
+}
+.fs-4xl {
+  font-size: var(--fs-4xl) !important;
+}
+.bs-black1 {
+  color: var(--black1) !important;
+}
+.bg-black1 {
+  background: var(--black1) !important;
+}
+.bg-yellow {
+  color: var(--yellow) !important;
+}
+.bg--grey-yellow {
+  color: var(--grey-yellow) !important;
+}
+.ff-nunito {
+  font-family: var(--ff-nunito) !important;
+}
+.ff-lora {
+  font-family: var(--ff-lora) !important;
+}
